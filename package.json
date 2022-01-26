@@ -1,0 +1,22 @@
+{
+  "name": "baublebot",
+  "version": "1.0.0",
+  "description": "A Discord bot to inform about Bauble Farm events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Broeckx",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "luxon": "^2.3.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0"
+  }
+}
